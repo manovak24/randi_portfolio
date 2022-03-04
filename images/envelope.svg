@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>4. Icons/envelope</title>
+    <g id="4.-Icons/envelope" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icons8-envelope" transform="translate(4.000000, 8.000000)" fill="#151515">
+            <path d="M6.5,0 C2.9280619,0 0,2.928062 0,6.5 L0,25.5 C0,29.071938 2.9280619,32 6.5,32 L33.5,32 C37.071938,32 40,29.071938 40,25.5 L40,6.5 C40,2.928062 37.071938,0 33.5,0 L6.5,0 Z M6.5,3 L33.5,3 C35.450062,3 37,4.549938 37,6.5 L37,7.605469 L20,16.794922 L3,7.605469 L3,6.5 C3,4.549938 4.5499381,3 6.5,3 Z M3,11.015625 L19.287109,19.820312 C19.7319991,20.0605946 20.2680009,20.0605946 20.712891,19.820312 L37,11.015625 L37,25.5 C37,27.450062 35.450062,29 33.5,29 L6.5,29 C4.5499381,29 3,27.450062 3,25.5 L3,11.015625 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
