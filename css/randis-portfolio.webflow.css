@@ -207,6 +207,18 @@ figcaption {
   text-align: center;
 }
 
+.italicized {
+  font-style: italic;
+}
+
+.publication-list-item {
+  margin-bottom: 25px;
+}
+
+.publication-list-item>p {
+  margin-bottom: 5px !important;
+}
+
 .page-wrapper {
   position: relative;
   z-index: 10;
