@@ -207,6 +207,10 @@ figcaption {
   text-align: center;
 }
 
+.pb-32 {
+  padding-bottom: 32px !important;
+}
+
 .italicized {
   font-style: italic;
 }
