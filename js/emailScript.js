@@ -1,11 +1,15 @@
-const fullName = document.getElementById("name").value;
-const userEmail = document.getElementById("email").value;
-const userMessage = document.getElementById("message").value;
+const fullName = document.getElementById("name");
+const userEmail = document.getElementById("email");
+const userMessage = document.getElementById("message");
 const submitBtn = document.getElementById("submit-btn");
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 const formValidate = () => {
-	if (fullName < 1) {
+	const name = fullName.value;
+	const email = userEmail.value;
+	const message = userMessage.value;
+
+	if (name.length < 3) {
 		Swal.fire({
 			title: 'Error!',
 			text: 'Please enter a valid name',
@@ -14,7 +18,7 @@ const formValidate = () => {
 		});
 		return false;
 	}
-  if(!userEmail.match(emailRegex)) {
+  if(!email.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
 			text: 'Please enter a valid email',
