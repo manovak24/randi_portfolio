@@ -19,6 +19,7 @@ const formValidate = () => {
 		});
 		return false;
 	}
+
   if(!email.match(emailRegex)) {
     Swal.fire({
       title: 'Error!',
@@ -28,5 +29,16 @@ const formValidate = () => {
     })
     return false
   }
+
+  if(message < 3) {
+    Swal.fire({
+      title: 'Error!',
+			text: 'Please enter a valid message',
+			icon: 'error',
+			confirmButtonText: 'Okay'
+    })
+    return false
+  }
+
   return true
 }
