@@ -207,6 +207,14 @@ figcaption {
   text-align: center;
 }
 
+.last-list-item {
+  margin-bottom: 0px !important;
+}
+
+.pb-8 {
+  padding-bottom: 8px;
+}
+
 .pb-32 {
   padding-bottom: 32px !important;
 }

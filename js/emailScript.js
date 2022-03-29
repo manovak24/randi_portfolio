@@ -4,6 +4,7 @@ const userMessage = document.getElementById("message");
 const submitBtn = document.getElementById("submit-btn");
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
+// function to validate form but this might be changing to function for the entire form submit function
 const formValidate = () => {
 	const name = fullName.value;
 	const email = userEmail.value;
