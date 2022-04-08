@@ -1973,6 +1973,12 @@ figcaption {
   display: block;
   color: #151515;
 }
+.work-card-preview-book {
+  position: relative;
+  overflow: hidden;
+  height: 75vw;
+  min-height: 168px;
+}
 
 .work-card-preview {
   position: relative;
