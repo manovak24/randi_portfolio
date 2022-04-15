@@ -395,6 +395,13 @@ figcaption {
   background-color: #edeee8;
 }
 
+.bg-image-about {
+  position: relative;
+  left: 0;
+  bottom: 50px;
+  width: 100%;
+}
+
 .bg-image {
   position: relative;
   left: 0px;
