@@ -396,10 +396,13 @@ figcaption {
 }
 
 .bg-image-about {
-  position: relative;
-  left: 0;
-  bottom: 50px;
   width: 100%;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .bg-image {
