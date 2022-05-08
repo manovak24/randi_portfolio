@@ -15,7 +15,9 @@ const formValidate = () => {
 			title: 'Error!',
 			text: 'Please enter a valid name',
 			icon: 'error',
-			confirmButtonText: 'Okay'
+			confirmButtonText: 'Okay',
+			background: '#EDEEE8',
+      		color: '#151515'
 		});
 		return false;
 	}
@@ -25,7 +27,9 @@ const formValidate = () => {
 		title: 'Error!',
 				text: 'Please enter a valid email',
 				icon: 'error',
-				confirmButtonText: 'Okay'
+				confirmButtonText: 'Okay',
+				background: '#EDEEE8',
+      			color: '#151515'
 		})
 		return false
 	}
@@ -35,7 +39,9 @@ const formValidate = () => {
 		title: 'Error!',
 				text: 'Please enter a valid message',
 				icon: 'error',
-				confirmButtonText: 'Okay'
+				confirmButtonText: 'Okay',
+				background: '#EDEEE8',
+      			color: '#151515'
 		})
 		return false
 	}
@@ -60,8 +66,8 @@ function sendEmail() {
 		text: 'Thank you for your email.',
 		icon: 'success',
 		confirmButtonText: 'Okay',
-		background: '#2a3166ef',
-		color: '#F27475'
+		background: '#EDEEE8',
+      	color: '#151515'
 		})
 		formButton.disabled = true;
 	}
