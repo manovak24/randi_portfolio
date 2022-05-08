@@ -1984,10 +1984,8 @@ figcaption {
   color: #151515;
 }
 .work-card-preview-book {
-  position: relative;
-  overflow: hidden;
-  height: 75vw;
-  min-height: 168px;
+  width: 50%;
+  margin: 0px auto 25px;
 }
 
 .work-card-preview {
