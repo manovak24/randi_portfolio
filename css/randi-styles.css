@@ -207,15 +207,9 @@ figcaption {
   text-align: center;
 }
 
-.form-radio-button {
-  display: flex;
-  align-items: center;
-}
-
-.form-radio-button>input, .form-radio-button>label {
-  display: block;
-  margin-bottom: 0px;
-  padding: 5px;
+.book-radio-selection {
+  display: inline;
+  margin-bottom: 5px;
   font-weight: bold;
 }
 
