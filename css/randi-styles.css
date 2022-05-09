@@ -220,6 +220,10 @@ figcaption {
   margin-bottom: 0px !important;
 }
 
+.pl-6 {
+  padding-left: 6px;
+}
+
 .pb-8 {
   padding-bottom: 8px;
 }
@@ -232,12 +236,17 @@ figcaption {
   font-style: italic;
 }
 
+.black-text {
+  color: rgb(21, 21, 21);
+}
+
 .publication-list-item {
   margin-bottom: 25px;
 }
 
-.publication-list-item>p {
-  margin-bottom: 5px !important;
+.publication-list-item:hover {
+  cursor: pointer;
+  opacity: .75;
 }
 
 .page-wrapper {
