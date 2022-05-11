@@ -1,7 +1,6 @@
 const fullName = document.getElementById("name");
 const userEmail = document.getElementById("email");
 const userMessage = document.getElementById("message");
-const submitBtn = document.getElementById("submit-btn");
 const formButton = document.getElementById("submit-btn");
 const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
