@@ -3781,6 +3781,10 @@ figcaption {
     margin-bottom: 4px;
     font-size: 13px;
   }
+
+  .unordered-list {
+    padding-left: 25px;
+  }
 }
 
 #w-node-c530add8-39c9-2973-63f3-944c0d6c17ac-4a71d663 {
