@@ -212,7 +212,7 @@ figcaption {
   padding-left: 10px;
 }
 
-.book-selection {
+.book-options>li>label {
   display: inline;
 }
 
@@ -570,6 +570,10 @@ figcaption {
 }
 
 .button:hover {
+  background-color: #ef7c54;
+}
+
+.button-disabled-color {
   background-color: #ef7c54;
 }
 
