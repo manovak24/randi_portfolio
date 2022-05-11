@@ -11,8 +11,8 @@ const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0
 function sendEmail() {
 	// contact parameters is required for the emailjs.send function
 	const contactParams = {
-		name: fullName.value,
-		email: userEmail.value,
+		user_name: fullName.value,
+		user_email: userEmail.value,
 		message: userMessage.value
 	};
 
@@ -57,5 +57,8 @@ function sendEmail() {
       	color: '#151515'
 		})
 		formButton.disabled = true;
+		formButton.classList.add('button-disabled-color');
+		// Below uses .value because it is an input tag. If it was a button tag it would be .innerText
+		formButton.value = 'Thank you!';
 	}
 }
