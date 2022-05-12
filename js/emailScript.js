@@ -16,7 +16,7 @@ function sendEmail() {
 		message: userMessage.value
 	};
 
-	if (fullName.value.length < 3) {
+	if (fullName.value.length === 0) {
 		Swal.fire({
 			title: 'Error!',
 			text: 'Please enter a valid name',
@@ -36,7 +36,7 @@ function sendEmail() {
       			color: '#151515'
 		})
 		return false
-	} else if(userMessage.value.length < 3) {
+	} else if(userMessage.value.length === 0) {
 		Swal.fire({
 		title: 'Error!',
 				text: 'Please enter a valid message',
