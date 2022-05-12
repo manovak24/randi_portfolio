@@ -49,12 +49,12 @@ function sendEmail() {
 	} else {
 		emailjs.send('gmail', 'portfolio', contactParams).then(function (res) {})
 		Swal.fire({
-		title: 'Success!',
-		text: 'Thank you for your email.',
-		icon: 'success',
-		confirmButtonText: 'Okay',
-		background: '#EDEEE8',
-      	color: '#151515'
+			title: 'Success!',
+			text: 'Thank you for your email.',
+			icon: 'success',
+			confirmButtonText: 'Okay',
+			background: '#EDEEE8',
+      		color: '#151515'
 		})
 
 		formButton.disabled = true;
