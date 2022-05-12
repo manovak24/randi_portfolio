@@ -25,17 +25,17 @@ function sendEmail() {
 			background: '#EDEEE8',
       		color: '#151515'
 		});
-		return false;
+
 	} else if(!userEmail.value.match(emailRegex)) {
 		Swal.fire({
-		title: 'Error!',
-				text: 'Please enter a valid email',
-				icon: 'error',
-				confirmButtonText: 'Okay',
-				background: '#EDEEE8',
-      			color: '#151515'
+			title: 'Error!',
+			text: 'Please enter a valid email',
+			icon: 'error',
+			confirmButtonText: 'Okay',
+			background: '#EDEEE8',
+			color: '#151515'
 		})
-		return false
+
 	} else if(!userMessage.value) {
 		Swal.fire({
 		title: 'Error!',
@@ -45,7 +45,7 @@ function sendEmail() {
 				background: '#EDEEE8',
       			color: '#151515'
 		})
-		return false
+
 	} else {
 		emailjs.send('gmail', 'portfolio', contactParams).then(function (res) {})
 		Swal.fire({
@@ -56,6 +56,7 @@ function sendEmail() {
 		background: '#EDEEE8',
       	color: '#151515'
 		})
+
 		formButton.disabled = true;
 		formButton.classList.add('button-disabled-color');
 		// Below uses .value because it is an input tag. If it was a button tag it would be .innerText
