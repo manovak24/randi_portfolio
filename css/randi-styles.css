@@ -307,6 +307,15 @@ figcaption {
   padding: 3vw;
 }
 
+.sidebar-alt {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 30%;
+  min-width: 320px;
+  padding: 3vw;
+}
+
 .section {
   padding-bottom: 100px;
 }
@@ -1402,7 +1411,7 @@ figcaption {
 }
 
 .side-box {
-  padding: 2.5vw;
+  width: 280px;
   border-style: solid;
   border-width: 1px;
   border-color: #d9dbd0;
@@ -2964,6 +2973,10 @@ figcaption {
     order: -1;
   }
 
+  .sidebar-alt {
+    display: none;
+  }
+
   .sidebar.mobile-bottom {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -3069,10 +3082,6 @@ figcaption {
   .back-link {
     display: none;
     margin-top: 24px;
-  }
-
-  .side-box {
-    padding: 40px;
   }
 
   .testimonials-button {
@@ -3368,10 +3377,6 @@ figcaption {
     line-height: 16px;
   }
 
-  .side-box {
-    padding: 32px;
-  }
-
   .testimonials-button {
     margin-top: -4px;
   }
@@ -3595,10 +3600,6 @@ figcaption {
   .post-card-content {
     margin: 20px 16px 0px;
     padding-bottom: 4px;
-  }
-
-  .side-box {
-    padding: 24px;
   }
 
   .testimonial {
