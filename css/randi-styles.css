@@ -228,6 +228,10 @@ figcaption {
   padding-bottom: 32px !important;
 }
 
+.mt-24 {
+  margin-top: 24px;
+}
+
 .italicized {
   font-style: italic;
 }
@@ -311,7 +315,7 @@ figcaption {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  width: 30%;
+  width: 32%;
   min-width: 320px;
   padding: 3vw;
 }
@@ -1411,7 +1415,6 @@ figcaption {
 }
 
 .side-box {
-  width: 280px;
   border-style: solid;
   border-width: 1px;
   border-color: #d9dbd0;
@@ -2271,6 +2274,13 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.alt-floating-button {
+  margin-top: 0px !important;
+  margin-right: 0vw !important;
+  padding-top: 24px !important;
+  padding-bottom: 24px !important;
 }
 
 .menu-button-circle {
