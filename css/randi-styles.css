@@ -249,6 +249,10 @@ figcaption {
   opacity: .75;
 }
 
+.book-description {
+  margin-top: 24px;
+}
+
 .page-wrapper {
   position: relative;
   z-index: 10;
